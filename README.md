@@ -8,7 +8,10 @@
 
 # ![HLS.js](https://raw.githubusercontent.com/video-dev/hls.js/master/docs/logo.svg)
 
+## support the playback of HEVC and MPEG-TS formatted videos.
+
 HLS.js is a JavaScript library that implements an [HTTP Live Streaming] client.
+
 It relies on [HTML5 video][] and [MediaSource Extensions][] for playback.
 
 It works by transmuxing MPEG-2 Transport Stream and AAC/MP3 streams into ISO BMFF (MP4) fragments.
@@ -17,7 +20,7 @@ HLS.js also supports HLS + fmp4, as announced during [WWDC2016](https://develope
 
 HLS.js works directly on top of a standard HTML`<video>` element.
 
-HLS.js is written in [ECMAScript6] (`*.js`) and [TypeScript] (`*.ts`) (strongly typed superset of ES6), and transpiled in ECMAScript5 using [Babel](https://babeljs.io/) and the [TypeScript compiler].
+HLS.js is written in [ECMAScript6](`*.js`) and [TypeScript](`*.ts`) (strongly typed superset of ES6), and transpiled in ECMAScript5 using [Babel](https://babeljs.io/) and the [TypeScript compiler].
 
 [Rollup] is used to build the distro bundle and serve the local development environment.
 
