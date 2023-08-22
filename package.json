@@ -1,6 +1,6 @@
 {
   "name": "hls-mpegts.js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "Apache-2.0",
   "description": "JavaScript HLS client using MediaSourceExtension",
   "homepage": "https://github.com/mmfjx/hls.js",
